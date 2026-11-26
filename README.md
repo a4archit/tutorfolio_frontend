@@ -53,6 +53,6 @@ section, query string and fragment. Theme previews keep their existing routes.
 
 The frontend uses the existing `GET /website/u/{username}` API and does not need
 the domain registry or wildcard tutor hosts to render websites. Keep an absolute
-`VITE_API_BASE_URL` configured for the deployment.
+`VITE_API_BASE_URL` configured for the deployment..
 
 Run `npm run test:website-domains` for URL and theme navigation checks.
